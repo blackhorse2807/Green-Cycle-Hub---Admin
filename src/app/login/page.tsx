@@ -80,15 +80,15 @@ export default function LoginPage() {
       
       <div className="w-full max-w-[420px] relative z-10">
         {/* Logo and branding */}
-        <div className="flex justify-center mb-8">
+        {/* <div className="flex justify-center mb-8">
           <Image 
-            src="/colorlogo.svg" 
+            src="/logo2.png" 
             alt="rPP Admin" 
-            width={80} 
-            height={80} 
+            width={100} 
+            height={100} 
             className="h-20 w-auto"
           />
-        </div>
+        </div> */}
         
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -212,7 +212,7 @@ export default function LoginPage() {
           
           <div className="mt-6 text-center">
             <p className="text-xs text-gray-500">
-              © {new Date().getFullYear()} VELEBIT GREEN. All rights reserved.
+              © {new Date().getFullYear()} Green Cycle Hub. All rights reserved.
             </p>
           </div>
         </motion.div>

@@ -27,7 +27,7 @@ export default function Navbar() {
             className="flex items-center space-x-2 hover:scale-105 transition-transform duration-200"
           >
             <Image
-              src="/colorlogo.svg"
+              src="/logo2.png"
               alt="rPP Admin"
               width={50}
               height={50}
