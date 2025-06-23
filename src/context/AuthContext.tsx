@@ -77,6 +77,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           'Content-Type': 'application/json',
           'x-frontend-type': 'admin'  // Changed back to lowercase as Express lowercases all headers
         },
+        credentials: 'include',
         body: JSON.stringify({ email, password }),
       });
 
